@@ -1,6 +1,8 @@
 <script lang="ts">
 	import Header from '$lib/header/Header.svelte';
 	import '../app.css';
+	import { Styles } from 'sveltestrap';
+
 </script>
 
 <Header />
@@ -10,7 +12,7 @@
 </main>
 
 <footer>
-	<p>visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to learn SvelteKit</p>
+	<p>Created by ashen with love. Copyright 2022 ashen</p>
 </footer>
 
 <style>
@@ -30,16 +32,12 @@
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
-		padding: 40px;
-	}
-
-	footer a {
-		font-weight: bold;
+		padding: 20px;
 	}
 
 	@media (min-width: 480px) {
 		footer {
-			padding: 40px 0;
+			padding: 20px 0;
 		}
 	}
 </style>

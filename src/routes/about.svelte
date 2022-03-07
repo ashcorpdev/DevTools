@@ -12,32 +12,33 @@
 	// since there's no dynamic data here, we can prerender
 	// it so that it gets served as a static asset in prod
 	export const prerender = true;
+	import Card from '../lib/components/Card.svelte';
 </script>
 
 <svelte:head>
-	<title>About</title>
+	<title>About | AshCorp Twitch Tools</title>
 </svelte:head>
 
 <div class="content">
-	<h1>About this app</h1>
+	<h1 class="display-5">About this site</h1>
 
 	<p>
-		This is a <a href="https://kit.svelte.dev">SvelteKit</a> app. You can make your own by typing the
-		following into your command line and following the prompts:
+		This is a site featuring a number of tools that I've developed to help make streaming life
+		easier. You can find the source code to these tools over at my GitHub:
 	</p>
 
-	<!-- TODO lose the @next! -->
-	<pre>npm init svelte@next</pre>
+	<Card
+		src="https://avatars.githubusercontent.com/u/5949532?v=4"
+		alt="Ashen"
+		title="AshCorpDev @ GitHub"
+		text="Developer from the UK. Working on web applications for streamers on Twitch."
+		link="https://github.com/ashcorpdev"
+	/>
 
 	<p>
-		The page you're looking at is purely static HTML, with no client-side interactivity needed.
-		Because of that, we don't need to load any JavaScript. Try viewing the page's source, or opening
-		the devtools network panel and reloading.
-	</p>
-
-	<p>
-		The <a href="/todos">TODOs</a> page illustrates SvelteKit's data loading and form handling. Try using
-		it with JavaScript disabled!
+		Please be aware that this site <strong><em>does not</em></strong> store any credentials for privacy
+		reasons. All tools require you to grant them access via the respective service they are intended
+		for.
 	</p>
 </div>
 

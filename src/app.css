@@ -1,31 +1,25 @@
 @import '@fontsource/fira-mono';
-
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+@import url('bootstrap/dist/css/bootstrap.min.css');
 :root {
-	font-family: Arial, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu,
+	font-family: 'Fira Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu,
 		Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 	--font-mono: 'Fira Mono', monospace;
 	--pure-white: #ffffff;
-	--primary-color: #b9c6d2;
-	--secondary-color: #d0dde9;
-	--tertiary-color: #edf0f8;
-	--accent-color: #ff3e00;
-	--heading-color: rgba(0, 0, 0, 0.7);
-	--text-color: #444444;
-	--background-without-opacity: rgba(255, 255, 255, 0.7);
+	--primary-color: #191c41;
+	--secondary-color: #2e4c6e;
+	--tertiary-color: #272727;
+	--accent-color: #0066ff;
+	--heading-color:  rgba(255, 255, 255, 0.7);
+	--text-color: #b6b6b6;
+	--background-without-opacity: rgba(0, 0, 0, 0.7);
 	--column-width: 42rem;
 	--column-margin-top: 4rem;
 }
 
 body {
 	min-height: 100vh;
-	margin: 0;
-	background-color: var(--primary-color);
-	background: linear-gradient(
-		180deg,
-		var(--primary-color) 0%,
-		var(--secondary-color) 10.45%,
-		var(--tertiary-color) 41.35%
-	);
+	margin: 0;background: linear-gradient(90deg, #6441a5 0%, #6034b2 100%);
 }
 
 body::before {
