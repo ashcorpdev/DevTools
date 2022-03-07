@@ -5,10 +5,10 @@
 	export let text = "Lorem ipsum"
 	export let link = "https://google.com"
 </script>
-<div class="card mb-3" style="max-width: 540px; min-width: 400px;">
+<div class="card mb-3 bg-dark">
 	<div class="row g-0">
 		<div class="col-md-4">
-			<img
+			<img style="height: 170px; object-fit: cover;"
 				src={src}
 				class="img-fluid rounded-start"
 				alt={alt}
@@ -16,13 +16,15 @@
 		</div>
 		<div class="col-md-8">
 			<div class="card-body">
-				<h5 class="text-dark card-title">{title}</h5>
-				<p class="text-dark card-text">
+				<h5 class=" text-light card-title text-truncate">{title}</h5>
+				<p class="text-light card-text text-truncate" style="max-height: 120px; white-space: pre-line;">
 					{text}
-				</p>
-				<p class="text-dark card-text">
-					<small class="text-muted"
-						><a href={link} target="_blank">{link}</a></small
+					<small class="text-muted-2">
+						<span>
+						<a href={link} target="_blank">
+							<br>
+							{link}
+						</a></span></small
 					>
 				</p>
 			</div>

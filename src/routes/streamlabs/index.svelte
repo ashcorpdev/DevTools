@@ -16,46 +16,37 @@
 			<h1 class="display-5 pb-4">Streamlabs</h1>
 		</div>
 	</div>
-    <div class="w-100"></div>
-	<div class="row">
-	<div class="col">
-		<Card
-			src="https://avatars.githubusercontent.com/u/5949532?v=4"
-			alt="Ashen"
-			title="AshCorpDev @ GitHub"
-			text="Developer from the UK. Working on web applications for streamers on Twitch."
-			link="https://github.com/ashcorpdev"
-		/>
-	</div>
-	<div class="col">
-		<Card
-			src="https://avatars.githubusercontent.com/u/5949532?v=4"
-			alt="Ashen"
-			title="AshCorpDev @ GitHub"
-			text="Developer from the UK. Working on web applications for streamers on Twitch."
-			link="https://github.com/ashcorpdev"
-		/>
-	</div>
-	</div>
-	<div class="row">
-	<div class="col">
-		<Card
-			src="https://avatars.githubusercontent.com/u/5949532?v=4"
-			alt="Ashen"
-			title="AshCorpDev @ GitHub"
-			text="Developer from the UK. Working on web applications for streamers on Twitch."
-			link="https://github.com/ashcorpdev"
-		/>
-	</div>
-	<div class="col">
-		<Card
-			src="https://avatars.githubusercontent.com/u/5949532?v=4"
-			alt="Ashen"
-			title="AshCorpDev @ GitHub"
-			text="Developer from the UK. Working on web applications for streamers on Twitch."
-			link="https://github.com/ashcorpdev"
-		/>
-	</div>
+	<div class="album py-5">
+		<div class="container">
+			<div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 g-3">
+				<div class="col">
+					<Card
+					src="https://images.unsplash.com/photo-1565688842882-e0b2693d349a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"	
+					alt="Profile"
+					title="Streamlabs Loyalty Exporter"
+					text="A tool to export your Streamlabs Loyalty Extension points into a CSV file format."				
+					link="https://github.com/ashcorpdev/sl-export"
+					></Card>
+				</div>
+				<div class="col">
+				</div>
+				<div class="col">
+				</div>
+				<div class="col">
+				</div>
+				<div class="col">
+				</div>
+				<div class="col">
+				</div>
+
+				<div class="col">
+				</div>
+				<div class="col">
+				</div>
+				<div class="col">
+				</div>
+			</div>
+		</div>
 	</div>
 </div>
 

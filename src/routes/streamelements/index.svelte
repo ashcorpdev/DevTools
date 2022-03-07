@@ -9,20 +9,13 @@
 	<title>StreamElements | AshCorp Twitch Tools</title>
 </svelte:head>
 
-<section>
-	<h1 class="display-5">StreamElements</h1>
-</section>
-<section></section>
+<div class="row">
+	<div class="col">
+		<h1 class="display-5 pb-4">StreamElements</h1>
+	</div>
+</div>
 
 <style>
-	section {
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-		flex: 1;
-	}
-
 	h1 {
 		width: 100%;
 	}

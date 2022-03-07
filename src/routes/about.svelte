@@ -19,28 +19,32 @@
 	<title>About | AshCorp Twitch Tools</title>
 </svelte:head>
 
-<div class="content">
-	<h1 class="display-5">About this site</h1>
-
-	<p>
-		This is a site featuring a number of tools that I've developed to help make streaming life
-		easier. You can find the source code to these tools over at my GitHub:
-	</p>
-
-	<Card
-		src="https://avatars.githubusercontent.com/u/5949532?v=4"
-		alt="Ashen"
-		title="AshCorpDev @ GitHub"
-		text="Developer from the UK. Working on web applications for streamers on Twitch."
-		link="https://github.com/ashcorpdev"
-	/>
-
-	<p>
-		Please be aware that this site <strong><em>does not</em></strong> store any credentials for privacy
-		reasons. All tools require you to grant them access via the respective service they are intended
-		for.
-	</p>
+<div class="row">
+	<div class="col">
+		<h1 class="display-5 pb-4">About this Site</h1>
+	</div>
 </div>
+<div class="content">
+			<p>
+				This is a site featuring a number of tools that I've developed to help make streaming life
+				easier. You can find the source code to these tools over at my GitHub:
+			</p>
+		
+			<Card
+				src="https://avatars.githubusercontent.com/u/5949532?v=4"
+				alt="Ashen"
+				title="AshCorpDev @ GitHub"
+				text="Developer from the UK.
+				Working on web applications for streamers on Twitch."
+				link="https://github.com/ashcorpdev"
+			/>
+		
+			<p>
+				Please be aware that this site <strong><em>does not</em></strong> store any credentials for privacy
+				reasons. All tools require you to grant them access via the respective service they are intended
+				for.
+			</p>
+			</div>
 
 <style>
 	.content {
