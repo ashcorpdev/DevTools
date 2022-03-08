@@ -1,6 +1,5 @@
 <script context="module" lang="ts">
 	export const prerender = true;
-	import logo from '../lib/header/ashcorp_logo.png';
 </script>
 
 <script lang="ts">

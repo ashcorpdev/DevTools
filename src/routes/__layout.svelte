@@ -1,14 +1,19 @@
 <script lang="ts">
 	import Header from '$lib/header/Header.svelte';
 	import '../app.css';
-	import { Styles } from 'sveltestrap';
-
+	import PageTransition from "$lib/components/Transition.svelte";
+	export let url;
 </script>
 
+<script context="module">
+	export const load = async ({ url }) => ({ props: { url } });
+</script>
 <Header />
 
 <main>
-	<slot />
+	<PageTransition {url}>
+	  <slot />
+	</PageTransition>
 </main>
 
 <footer>
